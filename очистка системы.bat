@@ -1,4 +1,4 @@
-adel /a /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files" 
+del /a /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files" 
 del /a /f /s /q "%userprofile%\AppData\Roaming\Microsoft\Windows\Cookies" 
 del /a /f /s /q "%SYSTEMDRIVE%\SoftwareDistribution\Download\SharedFileCache"
 del /a /f /s /q "%SYSTEMDRIVE%\Temp"
